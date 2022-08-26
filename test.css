@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+header{
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 120px;}
+    .logo{text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    .navigation a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 1.7em;
+padding-left: 20px;}    
+.main{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background:url(is.jpg) no-repeat;
+            background-size:contain;
+            background-position:inherit;
+        background-attachment: fixed;
+        }
+.main-btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+font-weight: 800;
+font-size: larger;
+display: inline-block;
+padding:0.9375em 3.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+position: relative;
+bottom: 85px;
+left: 263px;
+transition: 0.7s ease;
+}
+.main-btn:hover{
+background-color: rgb(0, 0, 0);
+transform: scale(1.1);
+color: rgb(255, 255, 255);}
+.palon{
+font-size: 160px;
+
+
+    text-decoration: none;
+color: black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+position: relative;
+bottom: 250px;
+left: -185px;
+}
+.fash{
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+color: black;
+position: relative;
+bottom: 150px;
+left: -658px;}
+
+
+@media(max-width: 414px){
+
+header{padding: 12px 20px;
+    font-size: 1em;
+    width: 100%;
+        position: fixed;
+        z-index: 999;
+        display:flex;
+        justify-content: space-between;
+    align-items: center;}
+
+    .logo{
+        font-size: 14px;}
+        .navigation a{
+            font-size: 15px;
+            padding: 4px;
+        
+        }
+        .main{
+            background:url(ga.jpg) no-repeat;
+            background-size:contain;
+                    background-position:initial;
+
+                background-attachment: fixed
+        }
+.palon{font-size: 90px;
+            
+            
+    text-decoration: none;
+color: black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+position: relative;
+bottom: 280px;
+left: -129px;
+
+
+}
+.navigation a{color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-left: 20px;
+
+
+
+
+
+
+}
+.main-btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+font-weight: 800;
+font-size: larger;
+display: inline-block;
+padding: 4px 20px;
+text-align: center;
+letter-spacing: 1px;
+border-radius: 15px;
+position: relative;
+bottom: 200px;
+left: 263px;
+transition: 0.7s ease;
+position: relative;
+left: 18px;
+bottom: -70px;
+
+}    
+.fash{
+font-size: 35px;
+    position: relative;
+left: -450px;
+bottom: 180px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 393px){
+
+    header{padding: 12px 20px;
+        font-size: 1em;
+        width: 100%;
+            position: fixed;
+            z-index: 999;
+            display:flex;
+            justify-content: space-between;
+        align-items: center;}
+    
+        .logo{
+            font-size: 14px;}
+            .navigation a{
+                font-size: 15px;
+                padding: 4px;
+            
+            }
+            .main{
+                background:url(iph.jpg) no-repeat;
+                background-size:contain;
+                        background-position:inherit;
+                    background-attachment: fixed
+            }
+    .palon{font-size: 90px;
+                
+                
+        text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 285px;
+    left: -129px;
+    
+    
+    }
+    .navigation a{color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 0.9em;
+        padding-left: 20px;
+    
+    
+    
+    
+    
+    
+    }
+    .main-btn{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: larger;
+    display: inline-block;
+    padding: 4px 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 200px;
+    left: 263px;
+    transition: 0.7s ease;
+    position: relative;
+    left: 18px;
+    bottom: -70px;
+    
+    }    
+    .fash{
+    font-size: 35px;
+        position: relative;
+    left: -450px;
+    bottom: 200px;
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 393px){
+
+header{padding: 12px 20px;
+    font-size: 1em;
+    width: 100%;
+        position: fixed;
+        z-index: 999;
+        display:flex;
+        justify-content: space-between;
+    align-items: center;}
+
+    .logo{
+        font-size: 14px;}
+        .navigation a{
+            font-size: 15px;
+            padding: 4px;
+        
+        }
+        .main{
+            background:url(iph.jpg) no-repeat;
+            background-size:contain;
+                    background-position:inherit;
+                background-attachment: fixed
+        }
+.palon{font-size: 90px;
+            
+            
+    text-decoration: none;
+color: black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+position: relative;
+bottom: 285px;
+left: -129px;
+
+
+}
+.navigation a{color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-left: 20px;
+
+
+
+
+
+
+}
+.main-btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+font-weight: 800;
+font-size: larger;
+display: inline-block;
+padding: 4px 20px;
+text-align: center;
+letter-spacing: 1px;
+border-radius: 15px;
+position: relative;
+bottom: 200px;
+left: 263px;
+transition: 0.7s ease;
+position: relative;
+left: 18px;
+bottom: -70px;
+
+}    
+.fash{
+font-size: 35px;
+    position: relative;
+left: -450px;
+bottom: 200px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 375px){
+
+    header{
+    
+        padding: 12px 20px;
+        font-size: 1em;
+        width: 100%;
+            position: fixed;
+            z-index: 999;
+            display:flex;
+            justify-content: space-between;
+        align-items: center;}
+
+
+
+        .logo{
+            font-size: 14px;}
+            .navigation a{
+                font-size: 15px;
+                padding: 4px;
+            
+            }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .main{
+            background:url(gogo.jpg) no-repeat;
+            background-size:contain;
+                    background-position:inherit;
+                background-attachment: fixed
+        }
+        .palon{
+            font-size: 90px;
+            
+            
+                text-decoration: none;
+            color: black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            position: relative;
+            bottom: 230px;
+            left: -138px;
+            }
+            .main-btn{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+            font-weight: 800;
+            font-size: larger;
+            display: inline-block;
+            padding: 4px 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            position: relative;
+            bottom: 200px;
+            left: 263px;
+            transition: 0.7s ease;
+            position: relative;
+        left: 18px;
+        bottom: -70px;
+        
+        }    
+
+        .fash{
+            font-size: 30px;
+            text-align:start;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            bottom: 140px;
+            left: -460px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
+
+
+
+
+
+
+
+
+@media(max-width:360px){
+header{
+padding: 12px 20px;
+font-size: 1em;
+width: 100%;
+    position: fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+align-items: center;}   
+.logo{
+font-size: 20px;}
+.navigation a{
+    font-size: 15px;
+    padding: 4px;
+
+}
+.palon{
+    font-size: 5em;
+    position: relative;
+    left: -123px;
+    
+}
+
+
+    .main-btn{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: larger;
+    display: inline-block;
+    padding: 4px 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 200px;
+    left: 263px;
+    transition: 0.7s ease;
+    position: relative;
+left: 18px;
+bottom: -50px;
+
+}    
+
+.fash{
+    font-size: 25px;
+    text-align:start;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 170px;
+    left: -420px;}
+.main{
+    background:url(galax.jpg) no-repeat;
+    background-size:contain;
+            background-position:inherit;
+        background-attachment: fixed
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
